@@ -14,16 +14,15 @@ With it now installed in your project:
         user      : "node",
         pass      : "password",
         url       : "https://sharepoint/subsite"
-    }
+    };
 
-    var SharePoint = require('node-sharepoint-ntlm')
+    var SharePoint = require('node-sharepoint-ntlm');
     
     var sharePoint = new SharePoint(settings);
 
 ----
 
 #### GET API
-  - [get(url, cb)]
 
 ##### <a id="get">get</a>
 is a base function of the SharePoint class for getting any data from a SharePoint app.  
